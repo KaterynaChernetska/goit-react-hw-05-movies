@@ -1,7 +1,6 @@
 import { Form } from 'components/Form/Form';
 import { MovieList } from 'components/MovieList.jsx/MovieList';
 import { useEffect, useState } from 'react';
-// import { useState } from "react";
 import { useSearchParams } from 'react-router-dom';
 import { getSearchedMovie } from 'services/api';
 

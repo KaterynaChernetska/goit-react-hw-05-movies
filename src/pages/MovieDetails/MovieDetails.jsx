@@ -5,7 +5,7 @@ import { Loader } from 'components/Loader/Loader';
 import css from './MovieDetails.module.css';
 import { Details } from '../../components/Details/Details';
 import { GoBackBtn } from 'components/GoBackBtn/GoBackBtn';
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 
 const MovieDetails = () => {
   const location = useLocation();
