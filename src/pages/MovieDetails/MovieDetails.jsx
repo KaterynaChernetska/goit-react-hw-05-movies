@@ -38,12 +38,12 @@ const MovieDetails = () => {
       <Details movieInfo={movieInfo} />
       <ul className={css.list}>
         <li>
-          <Link state={{ from: location }} to="cast">
+          <Link state={{ from: location.state?.from }} to="cast">
             Cast
           </Link>
         </li>
         <li>
-          <Link state={{ from: location }} to="reviews">
+          <Link state={{ from: location.state?.from }} to="reviews">
             Reviews
           </Link>
         </li>
